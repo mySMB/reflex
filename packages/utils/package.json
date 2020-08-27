@@ -19,7 +19,7 @@
     "directory": "packages/utils"
   },
   "devDependencies": {
-    "@sindresorhus/slugify": "^1.0.0",
+    "@sindresorhus/slugify": "^1.1.0",
     "is-relative-url": "^3.0.0"
   },
   "dependencies": {

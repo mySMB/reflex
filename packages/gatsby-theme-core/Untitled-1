@@ -1,0 +1,192 @@
+Done in 299.61s.
+root@456ef0b5a64c:/workspaces/reflex# npx @yarnpkg/doctor .
+npx: installed 217 in 44.049s
+➤ YN0000: Found 32 package(s) to process
+➤ YN0000: For a grand total of 237 file(s) to validate
+
+➤ YN0000: ┌ /workspaces/reflex/package.json
+➤ YN0000: │ User scripts prefixed with "pre" or "post" (like "prepare") will not be called in sequence anymore; prefer calling prologues and epilogues explicitly
+➤ YN0000: │ /workspaces/reflex/package.json:73:28: Unmet transitive peer dependency on react@^16.13.1, via react-test-renderer@^16.13.1
+➤ YN0000: └ Completed in 18.38s
+
+➤ YN0000: ┌ /workspaces/reflex/e2e-tests/blocks/package.json
+➤ YN0000: │ /workspaces/reflex/e2e-tests/blocks/cypress/support/index.js:18:1: Undeclared dependency on cypress-axe
+➤ YN0000: │ /workspaces/reflex/e2e-tests/blocks/cypress/support/index.js:19:1: Undeclared dependency on @testing-library/cypress
+➤ YN0000: │ /workspaces/reflex/e2e-tests/blocks/src/@reflexjs/gatsby-theme-base/layout.js:2:1: Undeclared dependency on @reflexjs/gatsby-theme-core
+➤ YN0000: │ /workspaces/reflex/e2e-tests/blocks/src/@reflexjs/gatsby-theme-base/layout.js:3:1: Undeclared dependency on @reflexjs/components
+➤ YN0000: └ Completed in 3.98s
+
+➤ YN0000: ┌ /workspaces/reflex/e2e-tests/gatsby-plugin-image/package.json
+➤ YN0000: └ Completed in 3.71s
+
+➤ YN0000: ┌ /workspaces/reflex/e2e-tests/gatsby-plugin-metatags/package.json
+➤ YN0000: └ Completed in 1.99s
+
+➤ YN0000: ┌ /workspaces/reflex/e2e-tests/gatsby-theme-block/package.json
+➤ YN0000: └ Completed in 1.73s
+
+➤ YN0000: ┌ /workspaces/reflex/e2e-tests/gatsby-theme-core/package.json
+➤ YN0000: └ Completed in 1.68s
+
+➤ YN0000: ┌ /workspaces/reflex/examples/example-blog/package.json
+➤ YN0000: │ User scripts prefixed with "pre" or "post" (like "preview") will not be called in sequence anymore; prefer calling prologues and epilogues explicitly
+➤ YN0000: │ /workspaces/reflex/examples/example-blog/gatsby-config.js:1:1: Undeclared dependency on dotenv
+➤ YN0000: │ /workspaces/reflex/examples/example-blog/src/@reflexjs/gatsby-theme-base/theme.js:1:1: Undeclared dependency on @reflexjs/preset-base
+➤ YN0000: │ /workspaces/reflex/examples/example-blog/src/@reflexjs/gatsby-theme-post/posts.js:2:1: Undeclared dependency on @reflexjs/components
+➤ YN0000: │ /workspaces/reflex/examples/example-blog/src/@reflexjs/gatsby-theme-post/posts.js:3:1: Undeclared dependency on @reflexjs/gatsby-theme-core
+➤ YN0000: │ /workspaces/reflex/examples/example-blog/src/@reflexjs/gatsby-theme-post/posts.js:4:1: Undeclared dependency on @reflexjs/gatsby-plugin-image
+➤ YN0000: └ Completed in 2.98s
+
+➤ YN0000: ┌ /workspaces/reflex/examples/example-video/package.json
+➤ YN0000: │ User scripts prefixed with "pre" or "post" (like "preview") will not be called in sequence anymore; prefer calling prologues and epilogues explicitly
+➤ YN0000: │ /workspaces/reflex/examples/example-video/gatsby-config.js:1:1: Undeclared dependency on dotenv
+➤ YN0000: │ /workspaces/reflex/examples/example-video/src/@reflexjs/gatsby-theme-base/theme.js:1:1: Undeclared dependency on @reflexjs/preset-base
+➤ YN0000: │ /workspaces/reflex/examples/example-video/src/@reflexjs/gatsby-theme-video/videos.js:2:1: Undeclared dependency on @reflexjs/components
+➤ YN0000: │ /workspaces/reflex/examples/example-video/src/@reflexjs/gatsby-theme-video/videos.js:3:1: Undeclared dependency on @reflexjs/gatsby-theme-core
+➤ YN0000: │ /workspaces/reflex/examples/example-video/src/@reflexjs/gatsby-theme-video/videos.js:4:1: Undeclared dependency on @reflexjs/gatsby-plugin-image
+➤ YN0000: └ Completed in 1.93s
+
+➤ YN0000: ┌ /workspaces/reflex/packages/components/package.json
+➤ YN0000: │ User scripts prefixed with "pre" or "post" (like "prepare") will not be called in sequence anymore; prefer calling prologues and epilogues explicitly
+➤ YN0000: │ /workspaces/reflex/packages/components/test/index.test.js:2:1: Undeclared dependency on react-test-renderer
+➤ YN0000: │ /workspaces/reflex/packages/components/test/index.test.js:3:1: Undeclared dependency on jest-emotion
+➤ YN0000: │ /workspaces/reflex/packages/components/test/index.test.js:4:1: Undeclared dependency on theme-ui
+➤ YN0000: └ Completed in 2.32s
+
+➤ YN0000: ┌ /workspaces/reflex/packages/gatsby-helpers/package.json
+➤ YN0000: └ Completed in 1.51s
+
+➤ YN0000: ┌ /workspaces/reflex/packages/gatsby-plugin-image/package.json
+➤ YN0000: │ /workspaces/reflex/packages/gatsby-plugin-image/package.json:31:29: Unmet transitive peer dependency on react@^16.13.1, via @reflexjs/components@^0.3.0
+➤ YN0000: │ /workspaces/reflex/packages/gatsby-plugin-image/package.json:35:28: Unmet transitive peer dependency on gatsby@>2.0.15, via gatsby-plugin-sharp@^2.6.16
+➤ YN0000: │ /workspaces/reflex/packages/gatsby-plugin-image/package.json:36:33: Unmet transitive peer dependency on gatsby@^2.2.0, via gatsby-source-filesystem@^2.3.8
+➤ YN0000: │ /workspaces/reflex/packages/gatsby-plugin-image/package.json:37:33: Unmet transitive peer dependency on gatsby@^2.12.1, via gatsby-transformer-sharp@^2.5.9
+➤ YN0000: └ Completed in 4.46s
+
+➤ YN0000: ┌ /workspaces/reflex/packages/gatsby-plugin-metatags/package.json
+➤ YN0000: │ /workspaces/reflex/packages/gatsby-plugin-metatags/src/metatags-debugger.js:2:1: Undeclared dependency on @reflexjs/components
+➤ YN0000: │ /workspaces/reflex/packages/gatsby-plugin-metatags/package.json:40:35: Unmet transitive peer dependency on gatsby@^2.0.0, via gatsby-plugin-react-helmet@^3.3.6
+➤ YN0000: │ /workspaces/reflex/packages/gatsby-plugin-metatags/package.json:41:21: Unmet transitive peer dependency on react@>=16.3.0, via react-helmet@^6.1.0
+➤ YN0000: └ Completed in 5.01s
+
+➤ YN0000: ┌ /workspaces/reflex/packages/gatsby-plugin-search-algolia/package.json
+➤ YN0000: │ /workspaces/reflex/packages/gatsby-plugin-search-algolia/src/hits.js:4:1: Undeclared dependency on @reflexjs/gatsby-theme-core
+➤ YN0000: │ /workspaces/reflex/packages/gatsby-plugin-search-algolia/package.json:38:32: Unmet transitive peer dependency on react@>= 16.3.0 < 17, via react-instantsearch-dom@^6.7.0
+➤ YN0000: │ /workspaces/reflex/packages/gatsby-plugin-search-algolia/package.json:38:32: Unmet transitive peer dependency on react-dom@>= 16.3.0 < 17, via react-instantsearch-dom@^6.7.0
+➤ YN0000: └ Completed in 4.95s
+
+➤ YN0000: ┌ /workspaces/reflex/packages/gatsby-theme-base/package.json
+➤ YN0000: │ /workspaces/reflex/packages/gatsby-theme-base/package.json:31:29: Unmet transitive peer dependency on react@^16.13.1, via @reflexjs/components@^0.3.0
+➤ YN0000: └ Completed in 2.5s
+
+➤ YN0000: ┌ /workspaces/reflex/packages/gatsby-theme-block/package.json
+➤ YN0000: │ /workspaces/reflex/packages/gatsby-theme-block/package.json:32:29: Unmet transitive peer dependency on react@^16.13.1, via @reflexjs/components@^0.3.0
+➤ YN0000: │ /workspaces/reflex/packages/gatsby-theme-block/package.json:36:33: Unmet transitive peer dependency on gatsby@^2.2.0, via gatsby-source-filesystem@^2.3.8
+➤ YN0000: └ Completed in 2.4s
+
+➤ YN0000: ┌ /workspaces/reflex/packages/gatsby-theme-core/package.json
+➤ YN0000: │ /workspaces/reflex/packages/gatsby-theme-core/index.js:3:1: Undeclared dependency on @theme-ui/match-media
+➤ YN0000: │ /workspaces/reflex/packages/gatsby-theme-core/src/use-location.js:1:1: Undeclared dependency on @reach/router
+➤ YN0000: │ /workspaces/reflex/packages/gatsby-theme-core/src/gatsby-plugin-theme-ui/index.js:1:1: Undeclared dependency on @theme-ui/core
+➤ YN0000: │ /workspaces/reflex/packages/gatsby-theme-core/package.json:32:22: Unmet transitive peer dependency on react@>=16.3.0, via @emotion/core@^10.0.28
+➤ YN0000: │ /workspaces/reflex/packages/gatsby-theme-core/package.json:34:22: Unmet transitive peer dependency on react@^16.13.1, via @mdx-js/react@^1.6.5
+➤ YN0000: │ /workspaces/reflex/packages/gatsby-theme-core/package.json:35:29: Unmet transitive peer dependency on react@^16.13.1, via @reflexjs/components@^0.3.0
+➤ YN0000: │ /workspaces/reflex/packages/gatsby-theme-core/package.json:41:34: Unmet transitive peer dependency on gatsby@^2.0.0, via gatsby-plugin-catch-links@^2.3.2
+➤ YN0000: │ /workspaces/reflex/packages/gatsby-theme-core/package.json:43:28: Unmet transitive peer dependency on gatsby@>2.0.15, via gatsby-plugin-sharp@^2.6.9
+➤ YN0000: │ /workspaces/reflex/packages/gatsby-theme-core/package.json:44:31: Unmet transitive peer dependency on gatsby@^2.13.1, via gatsby-plugin-theme-ui@^0.3.0
+➤ YN0000: │ /workspaces/reflex/packages/gatsby-theme-core/package.json:45:33: Unmet transitive peer dependency on gatsby@^2.2.0, via gatsby-source-filesystem@^2.3.8
+➤ YN0000: │ /workspaces/reflex/packages/gatsby-theme-core/package.json:46:34: Unmet transitive peer dependency on gatsby@^2.12.0, via gatsby-transformer-remark@^2.8.13
+➤ YN0000: │ /workspaces/reflex/packages/gatsby-theme-core/package.json:47:33: Unmet transitive peer dependency on gatsby@^2.12.1, via gatsby-transformer-sharp@^2.5.3
+➤ YN0000: └ Completed in 9.95s
+
+➤ YN0000: ┌ /workspaces/reflex/packages/gatsby-theme-doc/package.json
+➤ YN0000: │ /workspaces/reflex/packages/gatsby-theme-doc/src/doc-nav.js:5:1: Undeclared dependency on @reach/router
+➤ YN0000: │ /workspaces/reflex/packages/gatsby-theme-doc/package.json:32:29: Unmet transitive peer dependency on react@^16.13.1, via @reflexjs/components@^0.3.0
+➤ YN0000: │ /workspaces/reflex/packages/gatsby-theme-doc/package.json:37:33: Unmet transitive peer dependency on gatsby@^2.2.0, via gatsby-source-filesystem@^2.3.8
+➤ YN0000: └ Completed in 2.33s
+
+➤ YN0000: ┌ /workspaces/reflex/packages/gatsby-theme-library/package.json
+➤ YN0000: │ /workspaces/reflex/packages/gatsby-theme-library/src/preview.js:26:1: Undeclared dependency on theme-ui
+➤ YN0000: │ /workspaces/reflex/packages/gatsby-theme-library/src/use-library-block-categories.js:2:1: Undeclared dependency on @reflexjs/utils
+➤ YN0000: │ /workspaces/reflex/packages/gatsby-theme-library/src/use-library-block.js:2:1: Undeclared dependency on @reflexjs/utils
+➤ YN0000: │ /workspaces/reflex/packages/gatsby-theme-library/src/use-library-page.js:2:1: Undeclared dependency on @reflexjs/utils
+➤ YN0000: └ Completed in 2.25s
+
+➤ YN0000: ┌ /workspaces/reflex/packages/gatsby-theme-nav/package.json
+➤ YN0000: │ /workspaces/reflex/packages/gatsby-theme-nav/src/nav-menu.js:4:1: Undeclared dependency on @reflexjs/gatsby-theme-block
+➤ YN0000: │ /workspaces/reflex/packages/gatsby-theme-nav/package.json:32:29: Unmet transitive peer dependency on react@^16.13.1, via @reflexjs/components@^0.3.0
+➤ YN0000: │ /workspaces/reflex/packages/gatsby-theme-nav/package.json:36:33: Unmet transitive peer dependency on gatsby@^2.2.0, via gatsby-source-filesystem@^2.3.8
+➤ YN0000: └ Completed in 2.23s
+
+➤ YN0000: ┌ /workspaces/reflex/packages/gatsby-theme-post/package.json
+➤ YN0000: │ /workspaces/reflex/packages/gatsby-theme-post/package.json:32:29: Unmet transitive peer dependency on react@^16.13.1, via @reflexjs/components@^0.3.0
+➤ YN0000: │ /workspaces/reflex/packages/gatsby-theme-post/package.json:39:34: Unmet transitive peer dependency on gatsby@^2.0.0, via gatsby-awesome-pagination@^0.3.6
+➤ YN0000: │ /workspaces/reflex/packages/gatsby-theme-post/package.json:39:34: Unmet transitive peer dependency on react@^16.0.0, via gatsby-awesome-pagination@^0.3.6
+➤ YN0000: │ /workspaces/reflex/packages/gatsby-theme-post/package.json:40:33: Unmet transitive peer dependency on gatsby@^2.2.0, via gatsby-source-filesystem@^2.3.8
+➤ YN0000: └ Completed in 2.68s
+
+➤ YN0000: ┌ /workspaces/reflex/packages/gatsby-theme-profile/package.json
+➤ YN0000: │ /workspaces/reflex/packages/gatsby-theme-profile/package.json:32:29: Unmet transitive peer dependency on react@^16.13.1, via @reflexjs/components@^0.3.0
+➤ YN0000: │ /workspaces/reflex/packages/gatsby-theme-profile/package.json:38:33: Unmet transitive peer dependency on gatsby@^2.2.0, via gatsby-source-filesystem@^2.3.8
+➤ YN0000: └ Completed in 1.88s
+
+➤ YN0000: ┌ /workspaces/reflex/packages/gatsby-theme-styleguide/package.json
+➤ YN0000: │ /workspaces/reflex/packages/gatsby-theme-styleguide/package.json:31:29: Unmet transitive peer dependency on react@^16.13.1, via @reflexjs/components@^0.3.0
+➤ YN0000: │ /workspaces/reflex/packages/gatsby-theme-styleguide/package.json:37:33: Unmet transitive peer dependency on gatsby@^2.2.0, via gatsby-source-filesystem@^2.3.8
+➤ YN0000: └ Completed in 1.9s
+
+➤ YN0000: ┌ /workspaces/reflex/packages/gatsby-theme-tutorial/package.json
+➤ YN0000: │ /workspaces/reflex/packages/gatsby-theme-tutorial/src/use-tutorial.js:2:1: Undeclared dependency on @reflexjs/utils
+➤ YN0000: └ Completed in 1.78s
+
+➤ YN0000: ┌ /workspaces/reflex/packages/gatsby-theme-video/package.json
+➤ YN0000: │ /workspaces/reflex/packages/gatsby-theme-video/package.json:33:29: Unmet transitive peer dependency on react@^16.13.1, via @reflexjs/components@^0.3.0
+➤ YN0000: │ /workspaces/reflex/packages/gatsby-theme-video/package.json:39:34: Unmet transitive peer dependency on gatsby@^2.0.0, via gatsby-awesome-pagination@^0.3.6
+➤ YN0000: │ /workspaces/reflex/packages/gatsby-theme-video/package.json:39:34: Unmet transitive peer dependency on react@^16.0.0, via gatsby-awesome-pagination@^0.3.6
+➤ YN0000: │ /workspaces/reflex/packages/gatsby-theme-video/package.json:40:33: Unmet transitive peer dependency on gatsby@^2.2.0, via gatsby-source-filesystem@^2.3.8
+➤ YN0000: └ Completed in 2.03s
+
+➤ YN0000: ┌ /workspaces/reflex/packages/icons-feather/package.json
+➤ YN0000: └ Completed in 1.54s
+
+➤ YN0000: ┌ /workspaces/reflex/packages/preset-base/package.json
+➤ YN0000: │ User scripts prefixed with "pre" or "post" (like "prepare") will not be called in sequence anymore; prefer calling prologues and epilogues explicitly
+➤ YN0000: └ Completed in 0.85s
+
+➤ YN0000: ┌ /workspaces/reflex/packages/preset-flex/package.json
+➤ YN0000: │ User scripts prefixed with "pre" or "post" (like "prepare") will not be called in sequence anymore; prefer calling prologues and epilogues explicitly
+➤ YN0000: └ Completed in 0.86s
+
+➤ YN0000: ┌ /workspaces/reflex/packages/preset-merry/package.json
+➤ YN0000: │ User scripts prefixed with "pre" or "post" (like "prepare") will not be called in sequence anymore; prefer calling prologues and epilogues explicitly
+➤ YN0000: └ Completed in 0.77s
+
+➤ YN0000: ┌ /workspaces/reflex/packages/remark-mdx-searchable/package.json
+➤ YN0000: │ /workspaces/reflex/packages/remark-mdx-searchable/test/test.js:3:16: Undeclared dependency on remark
+➤ YN0000: │ /workspaces/reflex/packages/remark-mdx-searchable/test/test.js:4:13: Undeclared dependency on remark-mdx
+➤ YN0000: │ /workspaces/reflex/packages/remark-mdx-searchable/test/test.js:5:21: Undeclared dependency on remark-frontmatter
+➤ YN0000: └ Completed in 0.37s
+
+➤ YN0000: ┌ /workspaces/reflex/packages/utils/package.json
+➤ YN0000: └ Completed in 1.01s
+
+➤ YN0000: ┌ /workspaces/reflex/sites/www/package.json
+➤ YN0000: │ User scripts prefixed with "pre" or "post" (like "preview") will not be called in sequence anymore; prefer calling prologues and epilogues explicitly
+➤ YN0000: │ /workspaces/reflex/sites/www/gatsby-config.js:1:1: Undeclared dependency on dotenv
+➤ YN0000: │ /workspaces/reflex/sites/www/scripts/generate-screenshot-blocks.js:1:1: Undeclared dependency on dotenv
+➤ YN0000: │ /workspaces/reflex/sites/www/scripts/generate-screenshot-pages.js:1:1: Undeclared dependency on dotenv
+➤ YN0000: │ /workspaces/reflex/sites/www/cypress/support/index.js:18:1: Undeclared dependency on cypress-axe
+➤ YN0000: │ /workspaces/reflex/sites/www/cypress/support/index.js:19:1: Undeclared dependency on @testing-library/cypress
+➤ YN0000: │ /workspaces/reflex/sites/www/src/@reflexjs/gatsby-theme-base/theme.js:1:1: Undeclared dependency on @reflexjs/preset-base
+➤ YN0000: │ /workspaces/reflex/sites/www/src/@reflexjs/gatsby-theme-post/posts.js:2:1: Undeclared dependency on @reflexjs/components
+➤ YN0000: │ /workspaces/reflex/sites/www/src/@reflexjs/gatsby-theme-post/posts.js:3:1: Undeclared dependency on @reflexjs/gatsby-theme-core
+➤ YN0000: │ /workspaces/reflex/sites/www/src/@reflexjs/gatsby-theme-post/posts.js:4:1: Undeclared dependency on @reflexjs/gatsby-plugin-image
+➤ YN0000: └ Completed in 4.2s
+
+➤ YN0000: ┌ /workspaces/reflex/starters/gatsby-starter-base/package.json
+➤ YN0000: │ User scripts prefixed with "pre" or "post" (like "preview") will not be called in sequence anymore; prefer calling prologues and epilogues explicitly
+➤ YN0000: │ /workspaces/reflex/starters/gatsby-starter-base/gatsby-config.js:1:1: Undeclared dependency on dotenv
+➤ YN0000: └ Completed in 3.97s
+
+➤ YN0000: Failed with errors in 1.67m
+root@456ef0b5a64c:/workspaces/reflex# 
