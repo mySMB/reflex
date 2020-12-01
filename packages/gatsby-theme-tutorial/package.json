@@ -25,7 +25,7 @@
     "@reflexjs/components": "^0.3.1",
     "@reflexjs/gatsby-helpers": "^0.6.0",
     "@reflexjs/gatsby-theme-block": "^0.3.6",
-    "@reflexjs/gatsby-theme-core": "^0.5.3",
+    "@reflexjs/gatsby-theme-core": "^0.6.0",
     "@reflexjs/icons-feather": "^0.1.4",
     "gatsby": "^2.23.3",
     "gatsby-source-filesystem": "^2.3.8",
